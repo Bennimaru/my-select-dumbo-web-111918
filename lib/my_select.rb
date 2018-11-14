@@ -5,7 +5,7 @@ def my_select(collection)
  
  while i<collection.length
   yield collection[i]
-    if yield collection[i].even?
+    if collection[i].even?
       new_array<< collection[i]
     end
   i= i+1
