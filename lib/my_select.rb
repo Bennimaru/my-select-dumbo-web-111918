@@ -4,13 +4,12 @@ def my_select(collection)
  new_array=[]
  
  while i<collection.length
-  yield collection[i]
     if collection[i].even?
       new_array<< collection[i]
     end
   i= i+1
  end 
  
- new_array
+ return new_array
  
 end
